@@ -1,0 +1,24 @@
+{
+  "name": "ShieldVault",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "chalk": "4.0.0",
+    "date-fns": "^2.29.3",
+    "enquirer": "^2.3.6",
+    "glob": "^9.2.1",
+    "nanospinner": "^1.1.0",
+    "swc": "^1.0.11"
+  },
+  "scripts": {
+    "dev": "run-s build start",
+    "start": "node dist/index.js",
+    "build": "swc src -d dist"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "npm-run-all": "^4.1.5"
+  }
+}
