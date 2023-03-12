@@ -19,7 +19,9 @@ export class log {
     this.v = chalk.rgb(179, 171, 171);
   }
   logTit() {
-    console.log(`${chalk.rgb(209, 77, 77)(name)} ${this.v(`v${version}`)}`);
+    console.log(
+      `${chalk.rgb(209, 77, 77)("ShieldVault")} ${this.v(`v${version}`)}`
+    );
   }
   debug(text: string) {
     console.log(`${this.debu("DEBU")} ${this.text(text)}`);
