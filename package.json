@@ -12,6 +12,9 @@
     "nanospinner": "^1.1.0",
     "swc": "^1.0.11"
   },
+  "bin": {
+    "shieldvault": "./dist/index.js"
+  },
   "scripts": {
     "dev": "run-s build start",
     "start": "node dist/index.js",
