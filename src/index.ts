@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { CLI } from "./classes/cli";
 import * as logger from "./util/log";
 
