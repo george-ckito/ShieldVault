@@ -1,6 +1,6 @@
 {
   "name": "shieldvault",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "license": "MIT",
   "dependencies": {
@@ -13,7 +13,7 @@
     "swc": "^1.0.11"
   },
   "bin": {
-    "shieldvault": "node ./dist/index.js"
+    "shieldvault": "./dist/index.js"
   },
   "scripts": {
     "dev": "run-s build start",
