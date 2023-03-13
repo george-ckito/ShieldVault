@@ -13,7 +13,7 @@
     "swc": "^1.0.11"
   },
   "bin": {
-    "shieldvault": "./dist/index.js"
+    "shieldvault": "node ./dist/index.js"
   },
   "scripts": {
     "dev": "run-s build start",
